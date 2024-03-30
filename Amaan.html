@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amaan Shaikh's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=League+Spartan:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Playfair Display', serif; /* Playfair font family */
+            background-color: #f0f0f0; /* Light gray background */
+            color: #333; /* Dark gray text color */
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden; /* Hide horizontal scrollbar */
+        }
+
+        header {
+            background-color: #333; /* Dark gray */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .container {
+            position: relative; /* Relative position for absolute positioning */
+            max-width: 100%;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .profile {
+            position: relative;
+            width: 100%;
+            height: auto;
+        }
+
+        .profile img {
+            width: 500px; /* Small width */
+            height: 500px; /* Small height */
+            border-radius: 50%; /* Rounded corners to make it a circle */
+            display: block;
+            margin-right: 20px; /* Add margin to create space between the image and the content */
+            float: left; /* Float the image to the left */
+        }
+
+        .profile-content {
+            position: relative;
+            left: 15%;
+            width: calc(100% - 500px); /* Adjust the width of the content based on the image width */
+            padding: 20px;
+        }
+
+        .profile h2 {
+            margin-bottom: 10px;
+            color: black; /* Set text color to black */
+            font-family: 'League Spartan', sans-serif;
+            font-size: 70px; /* League Spartan font family */
+        }
+
+        .profile p {
+            color: #333; /* Dark grey text color */
+            font-family:  'League Spartan', sans-serif; /* Playfair font family */
+            margin: 10px 0;
+            font-size: 35px;
+        }
+
+        .button-container {
+            position: fixed; /* Fixed position for buttons */
+            top: 20px;
+            right: 20px;
+            z-index: 999; /* Ensure buttons are above other content */
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #333; /* Dark gray */
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            margin: 0 10px;
+        }
+
+        .button:hover {
+            background-color: #555; /* Dark gray hover */
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Amaan Shaikh's Portfolio</h1>
+</header>
+
+<div class="button-container">
+    <a href="#" class="button">Home</a>
+    <a href="#" class="button">About</a>
+    <a href="#" class="button">Portfolio</a>
+    <a href="#" class="button">Contact</a>
+</div>
+
+<div class="container">
+    <div class="profile">
+        <!-- Add your picture here -->
+        <img src="pic2.jpg" alt="Amaan Shaikh">
+        <div class="profile-content">
+            <h2>Hi, I'm <span style="color: #999999;"> Amaan Shaikh</span></h2>
+            <p><span style="color: #999999;">Computer Engineering Student</span> and an Aspiring <span style="color: #999999;">AI/ML Engineer</span></p>
+            <p>I'm a passionate computer engineering student with a keen interest in <span style="color: #999999;">artificial intelligence</span> and <span style="color: #999999;">machine learning</span>. I love coding, playing cricket, and exploring new technologies!</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
